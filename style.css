@@ -1,0 +1,19 @@
+/* Variables */
+:root{
+    /*Colors*/
+    --primary-color: hsl(75, 94%, 57%);
+    --neutral-white:hsl(0, 0%, 100%);
+    --neutral-grey: hsl(0, 0%, 20%);
+    --neutral-drak-grey: hsl(0, 0%, 12%);
+    --neutral-off-black: hsl(0, 0%, 8%);
+
+    /*Typography*/
+
+    --paragrapg-size: 14px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
