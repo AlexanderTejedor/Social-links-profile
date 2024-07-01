@@ -55,6 +55,7 @@ body{
 }
 .userlocation{
     font-size: var(--paragrapg-size);
+    font-weight: var(--medium-weight);
     margin-bottom: 32px;
 }
 .userdescription{
