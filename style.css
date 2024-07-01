@@ -31,7 +31,7 @@ body{
     align-items: center;
 }
 .card-container{
-    width: 375px;
+    min-width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +49,7 @@ body{
     color: var(--neutral-white);
 }
 .username{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: var(--medium-weight);
     margin-bottom: 10px;
 }
@@ -84,4 +84,15 @@ body{
 .btn:hover{
     color: var(--neutral-off-black);
     background-color: var(--primary-color);
+}
+
+/*Responsive*/
+
+@media (min-width: 1440px) {
+    .card-container{
+        min-width: 375px;
+    }
+    .btn{
+        width: 300px;
+    }
 }
